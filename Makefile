@@ -6,4 +6,5 @@ install:
 	mvn install
 #   -DartifactId=nome-artefatto-personalizza \
 #   -Dversion=1.0.0 \
-  
+
+build: install
