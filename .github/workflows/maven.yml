@@ -32,10 +32,13 @@ jobs:
         cache: maven
 
     - name: Install local F24Generator jar
-      run: mvn install:install-file -Dfile=extras/F24Generator-2.1.1-SNAPSHOT.jar -DgroupId=org.f24 -Dpackaging=jar
+      run: mvn install:install-file -Dfile=extras/F24Generator-2.1.1-SNAPSHOT.jar -DgroupId=org.f24 -DartifactId=F24Generator -Dversion=2.1.1-SNAPSHOT -Dpackaging=jar
+
+    - name: Run tests
+      run: mvn test
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package -DskipTests --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph

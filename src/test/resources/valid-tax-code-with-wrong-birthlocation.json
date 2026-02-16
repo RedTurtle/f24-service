@@ -1,0 +1,32 @@
+{
+  "taxPayer": {
+    "taxCode": "RSSMRA80A01A323T",
+    "personData": {
+      "personalData": {
+        "surname": "ROSSI",
+        "name": "MARIO",
+        "birthDate": "01-01-1980",
+        "sex": "M",
+        "birthPlace": "ROMA",
+        "birthProvince": "MI"
+      }
+    }
+  },
+  "paymentReasonSection": {
+    "reasonRecordList": [
+      {
+        "section": "EL",
+        "taxTypeCode": "3192",
+        "municipalityCode": "F205",
+        "reconsideration": false,
+        "propertiesChanges": false,
+        "advancePayment": false,
+        "fullPayment": true,
+        "year": 2026,
+        "month": "0101",
+        "numberOfProperties": "001",
+        "debitAmount": 10000
+      }
+    ]
+  }
+}

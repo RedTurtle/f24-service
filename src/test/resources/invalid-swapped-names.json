@@ -1,0 +1,32 @@
+{
+  "taxPayer": {
+    "taxCode": "MRARSS80A01C704B",
+    "personData": {
+      "personalData": {
+        "surname": "ROSSI",
+        "name": "MARIO",
+        "birthDate": "01-01-1980",
+        "sex": "M",
+        "birthPlace": "CINGOLI",
+        "birthProvince": "MC"
+      }
+    }
+  },
+  "paymentReasonSection": {
+    "reasonRecordList": [
+      {
+        "section": "EL",
+        "taxTypeCode": "3192",
+        "municipalityCode": "C361",
+        "reconsideration": false,
+        "propertiesChanges": false,
+        "advancePayment": false,
+        "fullPayment": true,
+        "year": 2026,
+        "month": "0101",
+        "numberOfProperties": "001",
+        "debitAmount": 4012000
+      }
+    ]
+  }
+}
